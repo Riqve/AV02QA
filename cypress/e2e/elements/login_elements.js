@@ -1,8 +1,8 @@
 class LoginElements{
 
-    inputEmail = () => { return '#field-:rb:'}
-    inputPassword = () => { return '#field-:rc:'}
-    btnLogin = () => { return 'Entrar' }
+    inputEmail = () => { return 'input[name="log"]'}
+    inputPassword = () => { return 'input[name="pwd"]'}
+    btnLogin = () => { return 'input[value="Log In"]' }
 
 
 } export default LoginElements

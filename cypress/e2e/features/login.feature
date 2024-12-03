@@ -9,4 +9,4 @@ Funcinalidade para realizar logins no sistema
 
     Examples:
       | scenario          | email                   | password    | mensage           |
-      | Login com sucesso | theusrucoygod@gmail.com | henrique123 | login com sucesso |
+      | Login com sucesso | Riqvee | henrique123 | login com sucesso |

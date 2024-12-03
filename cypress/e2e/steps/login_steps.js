@@ -5,11 +5,12 @@ const loginPage = new LoginPage
 
 Given(/^I access the home page of the application$/, () => {
 	loginPage.accesHomepage()
+
+    loginPage.acessLoginPage()
 });
 
 When(/^I input my email "([^"]*)" and my password "([^"]*)"$/, (email, password) => {
 	console.log(email, password);
-    loginPage.acessLoginPage()
 
     loginPage.fillLoginInfo(email, password)
 	

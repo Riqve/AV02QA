@@ -1,6 +1,6 @@
 class HomeElement{
-
-    btnEntrar = () => { return 'Entrar'}
+    
+    btnEntrar = () => { return 'Sign in'}
 
 
 } export default HomeElement
