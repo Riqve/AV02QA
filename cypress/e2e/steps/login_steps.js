@@ -21,6 +21,6 @@ When(/^Click in the buton$/, () => {
 
 });
 
-Then(/^I have my acess "([^"]*)"$/, (mensage) => {
+Then(/^The following message should be displayed "([^"]*)"$/, (mensage) => {
 	console.log(mensage);
 });
