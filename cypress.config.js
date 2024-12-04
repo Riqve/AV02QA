@@ -4,7 +4,7 @@ const cucumber = require("cypress-cucumber-preprocessor").default;
 module.exports = defineConfig({
   e2e: {
     defaultCommandTimeout: 2000,
-    baseUrl: "https://www.pokemon.com/br/pokedex",
+    baseUrl: "https://oldi.sussytoons.com/",
     specPattern: "**/*.feature",
     
     setupNodeEvents(on, config) {
