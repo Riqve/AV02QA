@@ -21,8 +21,11 @@ class LoginPage{
         cy.contains(homeElements.btnEntrar()).click({ force: true });
     }
 
-    fillLoginInfo(email, password) {
+    fillLoginEmail(email) {
         cy.get(loginElements.inputEmail()).type(email)
+    }
+    
+    fillLoginPassword(password){
         cy.get(loginElements.inputPassword()).clear().type(password)
     }
 

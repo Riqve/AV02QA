@@ -9,12 +9,21 @@ Given(/^I access the home page of the application$/, () => {
     loginPage.acessLoginPage()
 });
 
-When(/^I input my email "([^"]*)" and my password "([^"]*)"$/, (email, password) => {
-	console.log(email, password);
+When(/^I input my email "([^"]*)"$/, (email) => {
+	console.log(email);
 
-    loginPage.fillLoginInfo(email, password)
+    loginPage.fillLoginEmail(email)
 	
 });
+
+
+When(/^and my password "([^"]*)"$/, (password) => {
+	console.log(password);
+   
+    loginPage.fillLoginPassword(password)
+
+});
+
 
 When(/^Click in the buton$/, () => {
     loginPage.subimitLogin()
